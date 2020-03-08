@@ -56,6 +56,14 @@ footer.page-footer {
   margin: 0;
 }
 
-.header center{
-  color: 
+#intro{
+  /* text-align: center; */
+  /* display: inline-block; */
+  /* height: 1em; */
+  margin-left:15em;
+  margin-right:25em;
+  margin-bottom: 6em;
+  margin:none;
+  /* padding: 1em; */
+
 }
