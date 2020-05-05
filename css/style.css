@@ -25,9 +25,9 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -57,13 +57,8 @@ footer.page-footer {
 }
 
 #intro{
-  /* text-align: center; */
-  /* display: inline-block; */
-  /* height: 1em; */
   margin-left:15em;
   margin-right:25em;
-  margin-bottom: 6em;
+  margin-bottom:6em;
   margin:none;
-  /* padding: 1em; */
-
 }
