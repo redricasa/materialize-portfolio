@@ -48,25 +48,40 @@ p {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  img {
+  img.parallax {
     width: 100%;
-    height: 100%;
+    height: auto;
+  }
+  /* project images */
+  img.project {
+    width: 180px;
+    height: 80px;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-  img {
+  img.parallax {
     width: 100%;
-    height: 100%;
+    height: auto;
+  }
+  /* project images */
+  img.project {
+    width: 200px;
+    height: 100px;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-  img {
+  img.parallax {
     width: 100%;
-    height: 100%;
+    height: auto;
+  }
+  /* project images */
+  img.project {
+    width: 250px;
+    height: 150px;
   }
 }
 
