@@ -58,7 +58,54 @@ p {
     height: 80px;
   }
 }
-
+/* pixel 2 */
+@media only screen and (max-width: 411px) {
+  img.parallax {
+    width: 100%;
+    height: auto;
+  }
+  /* project images */
+  img.project {
+    width: 400px;
+    height: 100px;
+  }
+}
+/* iphone 5 */
+@media only screen and (max-width: 320px) {
+  img.parallax {
+    width: 100%;
+    height: auto;
+  }
+  /* project images */
+  img.project {
+    width: 320px;
+    height: 100px;
+  }
+}
+/* iphone 7 */
+@media only screen and (max-width: 375px) {
+  img.parallax {
+    width: 100%;
+    height: auto;
+  }
+  /* project images */
+  img.project {
+    width: 320px;
+    height: 100px;
+  }
+}
+/* Moto G4 */
+@media only screen and (max-width: 360px) {
+  img.parallax {
+    width: 100%;
+    height: auto;
+  }
+  /* project images */
+  img.project {
+    width: 340px;
+    height: 100px;
+  }
+}
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   img.parallax {
