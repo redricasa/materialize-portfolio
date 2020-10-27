@@ -8,7 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #fff9c4;
 }
 
 p {
@@ -173,4 +173,8 @@ footer.page-footer {
   margin-right:25em;
   margin-bottom:6em;
   margin:none;
+}
+
+body{
+  background-color: #ccff90;
 }
